@@ -1,8 +1,11 @@
 🚀 EMPLOYEE SALARY PREDICTION
+
 🎯 A machine learning web app to predict whether an employee earns >50K or ≤50K based on personal and professional attributes. Built using Streamlit, trained on the UCI Adult Income Dataset.
 
 📦 PROJECT OVERVIEW
+
 🔍 This project aims to:
+
 •	Classify employee salary range (>50K or ≤50K)
 •	Leverage preprocessing techniques (Encoding, Scaling, PCA)
 •	Utilize a trained machine learning model
@@ -10,7 +13,9 @@
 •	Visualize feature importance and model performance
 
 🗂️ PROJECT STRUCTURE
+
 Employee Salary Prediction Project/
+
 •	📄 app.py → Main Streamlit application
 •	📄 Employee_Salary_Prediction.ipynb → Jupyter notebook for EDA & model building
 •	📦 best_model.pkl → Trained machine learning model
@@ -22,9 +27,12 @@ Employee Salary Prediction Project/
 •	🗃️ .git/ → Git version control metadata
 
 ⚙️ HOW TO RUN LOCALLY
+
 ✅ PREREQUISITES
+
 •	Python 3.8 or higher
 •	Required libraries: streamlit, pandas, numpy, joblib, plotly, scikit-learn
+
 Install all dependencies using:
 
 pip install -r requirements.txt
@@ -34,6 +42,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 📊 MODEL INFORMATION
+
 •	Dataset: UCI Adult Income
 •	Problem Type: Binary Classification
 •	Target Variable: Salary (<=50K or >50K)
