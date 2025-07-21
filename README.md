@@ -70,3 +70,6 @@ Then open your browser and go to the URL displayed (usually `http://localhost:85
   - PCA for dimensionality reduction
 - **Model**: Final model saved as `best_model.pkl` after evaluation
 - **Evaluation Metrics**: Accuracy, F1-score, Precision, Recall
+
+### LINK TO THE APP :- `https://employee-salary-prediction-project-sohamneogy.streamlit.app/`
+
